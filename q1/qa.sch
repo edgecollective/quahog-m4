@@ -2003,17 +2003,6 @@ $EndComp
 Wire Wire Line
 	4900 2500 4650 2500
 $Comp
-L Connector:Screw_Terminal_01x02 J3
-U 1 1 5DB1B2FB
-P 4450 2500
-F 0 "J3" H 4450 2250 50  0000 C CNN
-F 1 "screw term" V 4600 2450 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 4450 2500 50  0001 C CNN
-F 3 "~" H 4450 2500 50  0001 C CNN
-	1    4450 2500
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0112
 U 1 1 5DB1B302
 P 4650 2600
@@ -2093,7 +2082,7 @@ U 1 1 5DB1B32B
 P 4350 900
 F 0 "J2" H 4405 1225 50  0000 C CNN
 F 1 "Barrel_Jack" H 4405 1134 50  0000 C CNN
-F 2 "" H 4400 860 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 4400 860 50  0001 C CNN
 F 3 "~" H 4400 860 50  0001 C CNN
 	1    4350 900 
 	1    0    0    -1  
@@ -2478,23 +2467,34 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x03 J7
 U 1 1 5DC30348
-P -550 3850
-F 0 "J7" H -470 3892 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H -470 3801 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal" H -550 3850 50  0001 C CNN
-F 3 "~" H -550 3850 50  0001 C CNN
-	1    -550 3850
+P 10600 3100
+F 0 "J7" H 10680 3142 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 10680 3051 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal" H 10600 3100 50  0001 C CNN
+F 3 "~" H 10600 3100 50  0001 C CNN
+	1    10600 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x06 J8
 U 1 1 5DC3086D
-P -550 5000
-F 0 "J8" H -470 4992 50  0000 L CNN
-F 1 "Screw_Terminal_01x06" H -470 4901 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-6-3.5-H_1x06_P3.50mm_Horizontal" H -550 5000 50  0001 C CNN
-F 3 "~" H -550 5000 50  0001 C CNN
-	1    -550 5000
+P 10600 4250
+F 0 "J8" H 10680 4242 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" H 10680 4151 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-6-3.5-H_1x06_P3.50mm_Horizontal" H 10600 4250 50  0001 C CNN
+F 3 "~" H 10600 4250 50  0001 C CNN
+	1    10600 4250
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 5DC5D8BB
+P 4450 2600
+F 0 "J3" H 4344 2275 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 4344 2366 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 4450 2600 50  0001 C CNN
+F 3 "~" H 4450 2600 50  0001 C CNN
+	1    4450 2600
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
