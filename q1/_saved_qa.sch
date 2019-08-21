@@ -2093,7 +2093,7 @@ U 1 1 5DB1B32B
 P 4350 900
 F 0 "J2" H 4405 1225 50  0000 C CNN
 F 1 "Barrel_Jack" H 4405 1134 50  0000 C CNN
-F 2 "" H 4400 860 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 4400 860 50  0001 C CNN
 F 3 "~" H 4400 860 50  0001 C CNN
 	1    4350 900 
 	1    0    0    -1  
