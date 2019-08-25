@@ -340,7 +340,7 @@ Wire Wire Line
 Text Label 6100 5900 0    70   ~ 0
 D9_SD_CS
 Text Label 6100 6000 0    70   ~ 0
-D8
+D8_DONE
 Wire Wire Line
 	5000 7900 5300 7900
 Text Label 5200 7900 0    70   ~ 0
@@ -1874,14 +1874,6 @@ $EndComp
 Wire Wire Line
 	4250 750  4000 750 
 Wire Wire Line
-	1200 1650 1300 1650
-Wire Wire Line
-	1300 1650 1300 2100
-Wire Wire Line
-	1300 2100 1050 2100
-Text GLabel 1050 2100 0    50   Input ~ 0
-MICRO_DONE_PIN
-Wire Wire Line
 	1200 1450 1600 1450
 Wire Wire Line
 	1200 1350 1450 1350
@@ -1931,7 +1923,7 @@ F 3 "" H 4000 950 50  0001 C CNN
 	1    4000 950 
 	1    0    0    -1  
 $EndComp
-Text Notes 3250 450  0    50   ~ 0
+Text Notes 5200 50   0    50   ~ 0
 (VMIN: 6.5V; VMAX: 36V)
 $Comp
 L Device:Q_PNP_BCE Q4
@@ -2003,7 +1995,7 @@ F 3 "" H 4000 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3850 3250 3350 3250
-Text Notes 3550 2250 0    50   ~ 0
+Text Notes 5300 1950 0    50   ~ 0
 (VIN MAX: 6V)
 $Comp
 L power:+BATT #PWR0113
@@ -2561,25 +2553,9 @@ Text Label 18900 7600 0    50   ~ 0
 RTC_32KHZ
 Text Notes 19450 7600 0    59   ~ 0
 TODO: USE THIS FOR M4 XTAL?
-$Comp
-L Connector_Generic:Conn_02x03_Top_Bottom J?
-U 1 1 5D9104F6
-P 2400 1650
-F 0 "J?" H 2450 1967 50  0000 C CNN
-F 1 "Conn_02x03_Top_Bottom" V 2100 1250 50  0000 C CNN
-F 2 "" H 2400 1650 50  0001 C CNN
-F 3 "~" H 2400 1650 50  0001 C CNN
-	1    2400 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1200 1550 2200 1550
-Wire Wire Line
-	2200 1550 2200 1650
 Connection ~ 2200 1550
-Wire Wire Line
-	2200 1650 2200 1750
-Connection ~ 2200 1650
 Wire Wire Line
 	3350 1550 3350 3250
 Wire Wire Line
@@ -2675,4 +2651,24 @@ Wire Wire Line
 	950  300  1200 300 
 Wire Wire Line
 	1200 300  1200 1250
+Wire Wire Line
+	1200 1650 1550 1650
+Text Label 1250 1650 0    50   ~ 0
+D8_DONE
+Wire Wire Line
+	2200 1650 2200 1750
+Wire Wire Line
+	2200 1550 2200 1650
+Connection ~ 2200 1650
+$Comp
+L Connector_Generic:Conn_02x03_Top_Bottom J?
+U 1 1 5D9104F6
+P 2400 1650
+F 0 "J?" H 2450 1967 50  0000 C CNN
+F 1 "Conn_02x03_Top_Bottom" V 2100 1250 50  0000 C CNN
+F 2 "" H 2400 1650 50  0001 C CNN
+F 3 "~" H 2400 1650 50  0001 C CNN
+	1    2400 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
