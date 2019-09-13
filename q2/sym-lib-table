@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name qa-eagle-import)(type Legacy)(uri ${KIPRJMOD}/qa-eagle-import.lib)(options "")(descr ""))
+  (lib (name qa_dwb)(type Legacy)(uri /home/dwblair/gitwork/quahog-m4/q1/qa_dwb.lib)(options "")(descr ""))
+)
