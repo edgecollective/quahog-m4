@@ -444,7 +444,7 @@
   )
 
   (module MountingHole:MountingHole_2.7mm_M2.5 (layer Top) (tedit 56D1B4CB) (tstamp 5D926E2D)
-    (at 129.0906 82.4231)
+    (at 129.0906 87.4231)
     (descr "Mounting Hole 2.7mm, no annular, M2.5")
     (tags "mounting hole 2.7mm no annular m2.5")
     (path /5D99EBDD)
@@ -464,7 +464,7 @@
   )
 
   (module MountingHole:MountingHole_2.7mm_M2.5 (layer Top) (tedit 56D1B4CB) (tstamp 5D926E42)
-    (at 39.0906 82.4231)
+    (at 39.0906 87.4231)
     (descr "Mounting Hole 2.7mm, no annular, M2.5")
     (tags "mounting hole 2.7mm no annular m2.5")
     (path /5D99FC38)
