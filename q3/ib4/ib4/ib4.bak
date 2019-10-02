@@ -321,11 +321,11 @@ Text GLabel 4150 2150 0    50   Input ~ 0
 MISO
 Text GLabel 4150 2050 0    50   Input ~ 0
 MOSI
-Text GLabel 1650 1450 0    50   Input ~ 0
-E_BUSY
-Text GLabel 1650 1550 0    50   Input ~ 0
-E_~RST
 Text GLabel 1650 1350 0    50   Input ~ 0
+E_BUSY
+Text GLabel 1650 1450 0    50   Input ~ 0
+E_~RST
+Text GLabel 1600 1050 0    50   Input ~ 0
 E_CS
 Text GLabel 1650 1750 0    50   Input ~ 0
 L_RST
